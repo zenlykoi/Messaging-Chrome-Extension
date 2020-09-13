@@ -115,7 +115,7 @@ Message = (function(){
     return {
         init : function(extension){
             self.extension = extension;
-            console.log(`Init Message library - "${extension}" successfully !`);
+            console.log(`Init Messaging-Chrome-Extension - "${extension}" successfully !`);
         },
         listen : function(extension,callback){
             self[self.extension].listen[extension](callback);
