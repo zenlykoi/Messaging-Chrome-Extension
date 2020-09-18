@@ -1,6 +1,6 @@
 Message = (function(){
 
-  const self = { SCRIPT_TYPE : ''};
+  const self = { SCRIPT_TYPE : '', VERSION : '1.0'};
 
   self['content'] = {
     to : {
@@ -127,7 +127,7 @@ Message = (function(){
         }
     })();
 
-    console.log(`Init Messaging - Chrome Extension - "${self.SCRIPT_TYPE}" successfully !`);
+    console.log(`Init Messaging - Chrome Extension (v${self.VERSION}) - "${self.SCRIPT_TYPE}" successfully !`);
   }
 
   init(self);
