@@ -136,6 +136,8 @@ Message = (function(){
   return {
     
     SCRIPT_TYPE : self.SCRIPT_TYPE,
+    
+    VERSION : self.VERSION,
 
     listen : function(SCRIPT_TYPE,callback){
       self[self.SCRIPT_TYPE].listen[SCRIPT_TYPE](callback);
